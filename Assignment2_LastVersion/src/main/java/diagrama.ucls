@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="PT2020.as2.Assignment2_LastVersion.Client" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/Client.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="322" width="248" x="1010" y="1559"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="PT2020.as2.Assignment2_LastVersion.DataReader" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/DataReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="556" width="330" x="577" y="963"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="PT2020.as2.Assignment2_LastVersion.ConcreteStrategyTime" 
+    project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/ConcreteStrategyTime.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="248" x="289" y="619"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="PT2020.as2.Assignment2_LastVersion.Coada" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/Coada.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="286" width="289" x="947" y="963"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="PT2020.as2.Assignment2_LastVersion.Scheduler" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/Scheduler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="304" width="228" x="947" y="619"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="PT2020.as2.Assignment2_LastVersion.SimulationManager" 
+    project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/SimulationManager.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="520" width="338" x="975" y="59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="PT2020.as2.Assignment2_LastVersion.Strategy" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/Strategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="248" x="289" y="963"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="PT2020.as2.Assignment2_LastVersion.Main" project="Assignment2_LastVersion" 
+    file="/Assignment2_LastVersion/src/main/java/PT2020/as2/Assignment2_LastVersion/Main.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="225" x="499" y="59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="1266" y="619"/>    
+    <bendpoint x="1266" y="963"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="clients"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="clients"/>      
+      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="17" name="queues"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="20" name="scheduler"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="23" name="strategy"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="26" name="clients"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

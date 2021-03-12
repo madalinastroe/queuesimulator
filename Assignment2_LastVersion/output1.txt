@@ -1,0 +1,143 @@
+Output
+
+Time	0
+Clients: (1 , 2 , 3) (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	1
+Clients: (1 , 2 , 3) (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	2
+Clients: (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (1 , 2 , 3) 
+Queue 1: is closed
+
+Time	3
+Clients: (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (1 , 2 , 2) 
+Queue 1: is closed
+
+Time	4
+Clients: (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (1 , 2 , 1) 
+Queue 1: is closed
+
+Time	5
+Clients: (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	6
+Clients: (2 , 7 , 4) (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	7
+Clients: (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (2 , 7 , 4) 
+Queue 1: is closed
+
+Time	8
+Clients: (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (2 , 7 , 3) 
+Queue 1: is closed
+
+Time	9
+Clients: (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (2 , 7 , 2) 
+Queue 1: is closed
+
+Time	10
+Clients: (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: (2 , 7 , 1) 
+Queue 1: is closed
+
+Time	11
+Clients: (3 , 12 , 4) (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	12
+Clients: (4 , 24 , 3) 
+Queue 0: (3 , 12 , 4) 
+Queue 1: is closed
+
+Time	13
+Clients: (4 , 24 , 3) 
+Queue 0: (3 , 12 , 3) 
+Queue 1: is closed
+
+Time	14
+Clients: (4 , 24 , 3) 
+Queue 0: (3 , 12 , 2) 
+Queue 1: is closed
+
+Time	15
+Clients: (4 , 24 , 3) 
+Queue 0: (3 , 12 , 1) 
+Queue 1: is closed
+
+Time	16
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	17
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	18
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	19
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	20
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	21
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	22
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	23
+Clients: (4 , 24 , 3) 
+Queue 0: is closed
+Queue 1: is closed
+
+Time	24
+Clients: is closed
+Queue 0: (4 , 24 , 3) 
+Queue 1: is closed
+
+Time	25
+Clients: is closed
+Queue 0: (4 , 24 , 2) 
+Queue 1: is closed
+
+Time	26
+Clients: is closed
+Queue 0: (4 , 24 , 1) 
+Queue 1: is closed
+
+Time	27
+Clients: is closed
+Queue 0: is closed
+Queue 1: is closed
+
+
